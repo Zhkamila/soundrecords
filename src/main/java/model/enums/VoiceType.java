@@ -8,7 +8,7 @@ public enum VoiceType {
     BARITONE("Baritone"),
     MEZZOSOPRANO("Mezzo-soprano");
 
-    private String voice;
+    private final String voice;
 
     VoiceType(String voice) {
         this.voice = voice;

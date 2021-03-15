@@ -6,7 +6,7 @@ import model.artist.Songwriter;
 import model.enums.Genre;
 
 public class Song {
-    private String title;
+    private final String title;
     private Performer performer;
     private Songwriter songwriter;
     private Composer composer;

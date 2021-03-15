@@ -3,7 +3,7 @@ package model;
 import java.util.List;
 
 public class Album {
-    private String title;
+    private final String title;
     private List<Song> songs;
     private int releaseYear;
 

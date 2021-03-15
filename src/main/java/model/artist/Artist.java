@@ -1,8 +1,8 @@
 package model.artist;
 
 public abstract class Artist {
-    private String firstname;
-    private String lastname;
+    private final String firstname;
+    private final String lastname;
     private int birthYear;
     private String birthPlace;
     private String label;

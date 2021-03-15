@@ -8,7 +8,7 @@ public enum Genre {
     POP("Pop"),
     ROCK("Rock");
 
-    private String genreName;
+    private final String genreName;
 
     Genre(String genreName) {
         this.genreName = genreName;
